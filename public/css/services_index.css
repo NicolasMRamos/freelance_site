@@ -1,0 +1,159 @@
+#services {
+    font-family: 'Montserrat', sans-serif;
+    margin: 1em;
+    padding: 1em;
+    grid-row: 2;
+    background-color: seashell;
+}
+
+#services #empty-serv-msg {
+    color: gray;
+    font-size: 1.5em;
+}
+
+#services #service_header h2 {
+    color: lightcoral;
+    font-weight: 600;
+    border-top: solid 2px lightcoral;
+    padding-top: 0.7em;
+    border-bottom: solid 2px lightcoral;
+    padding-bottom: 0.7em;
+    font-size: 2em;
+}
+
+.create_service_button {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#services .service_container {
+    position: relative;
+    border-bottom: solid 2px lightcoral;
+}
+
+#services .service_container h3 {
+    padding: 0.5em 0;
+}
+
+#services .service_container h3 a {
+    color: lightcoral;
+    text-decoration: none;
+    border: solid 2px lightcoral;
+    padding: 0.3125em;
+    font-size: 1.5em;
+}
+
+#services .service_container h3 a:hover {
+    color: #B85C5C;
+    border: solid 2px #B85C5C;
+}
+
+#services .service_container .service_details {
+    color: gray;
+}
+
+#services .admin-id {
+    color: gray;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0.625em;
+    right: 0.625em;
+}
+
+/* Filter related */
+#services #service_filter {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px lightsalmon;
+    padding: 0 1em 1em 1em;
+    margin-bottom: 1em;
+}
+
+#services #service_filter h2 {
+    color: lightsalmon;
+    border-bottom: solid 2px lightsalmon;
+    padding-bottom: 0.3125em;
+    margin-bottom: 0.3125em;
+}
+
+#services #service_filter label {
+    color: lightcoral;
+}
+
+#services #service_filter .confirm_button {
+    color: lightsalmon;
+    border: solid 2px lightsalmon;
+    margin: 0.3125em 0 0 0;
+}
+
+#services #service_filter .filter_container {
+    margin: 1em 0;
+}
+
+#services #service_filter .filter_container input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+#services #service_filter .filter_container label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: lightcoral;
+  font-weight: 500;
+}
+
+#services #service_filter .filter_container label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid lightcoral;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#services #service_filter .filter_container input[type="checkbox"]:checked + label::before {
+  background-color: white;
+}
+
+#services #service_filter .filter_container input[type="checkbox"]:checked + label::after {
+  content: "✔";
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: lightcoral;
+}
+
+/* Checkbox Input */
+#services #service_filter #category_section select,
+#services #service_filter #price_section input,
+#services #service_filter #delivery_section input,
+#services #service_filter #rating_section input {
+    color: lightcoral;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1em;
+    border: solid 2px lightcoral;
+    width: 20em;
+    font-size: 1em;
+    padding: 0.3125em;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#services #service_filter #price_section input::placeholder,
+#services #service_filter #delivery_section input::placeholder,
+#services #service_filter #rating_section input::placeholder {
+    color: lightcoral;
+}
+

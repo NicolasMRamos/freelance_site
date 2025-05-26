@@ -1,0 +1,66 @@
+#edit_profile {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: lightcoral;
+    margin: 1em;
+    padding-bottom: 1em;
+    background-color: seashell;
+}
+
+#edit_profile h2 {
+    font-weight: 600;
+    padding-bottom: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    border-bottom: solid 2px lightcoral;
+    font-size: 2em;
+}
+
+#edit_profile .confirm_button {
+    margin: 0.5em auto 1em auto;
+}
+
+#edit_profile #edit-result {
+    text-align: center;
+    color: lightsalmon;
+    font-size: 1.3em;
+    margin: 1em;
+}
+
+#edit_profile .backprofile_button {
+    margin: 1em auto 1em auto;
+}
+
+#edit_profile #formedit p {
+    color: lightcoral;
+    font-weight: 600;
+    text-align: center;
+}
+
+#edit_profile #formedit #pass_edit {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    margin-left: 1.5em;
+}
+
+#edit_profile #formedit #left_side_edit {
+    border-right: solid 2px lightcoral;
+    padding-right: 1.5em;
+}
+
+#edit_profile #formedit #can_edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#edit_profile #formedit #pass_conf_edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

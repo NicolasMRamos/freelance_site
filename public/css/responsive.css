@@ -1,0 +1,184 @@
+@media (max-width: 650px) {
+
+  /* header responsiveness */
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+  }
+  
+  header h1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+
+  header h2 {
+    display: none;
+  }
+
+  header .login_button,
+  header .named_button {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
+    margin: 0 1.2rem 1rem 0.5rem;
+  }
+
+  header .register_button,
+  header .logout_button {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+
+  header .index_button {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    justify-self: center;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+  }
+
+  header .login_button a,
+  header .named_button a,
+  header .register_button a,
+  header .logout_button a,
+  header .index_button a {
+    padding: 0.3em 1.5em;
+  }
+
+  /* footer responsiveness */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .index_button a {
+    padding: 0.3em 1.5em;
+    margin-top: 25px;
+  }
+  
+  footer p {
+    margin-bottom: 20px;
+  }
+
+  /* pages responsiveness (width fixing) */
+
+  #user_info,
+  #login_page,
+  #register_page,
+  #create_service,
+  #edit_profile,
+  #admin_central,
+  #services,
+  .service_container {
+    width: auto;
+    max-width: 90vw;
+  }
+
+  #fl_track .create_service_button {
+      display: inline-block;
+      width: fit-content; 
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  #fl_track .create_service_button a:hover {
+    border: 2px solid #15756F;
+  }
+
+  #fl_track .create_service_button a {
+    display: block; 
+    white-space: normal;
+    word-break: break-word;
+    text-align: center;
+  }
+
+  /* form responsiveness (width fixing) */
+
+  form input,
+  form input[type="number"],
+  form textarea,
+  form select {
+    width: 250px;
+  }
+
+  /* text responsiveness (paragraph centering and header width fixing) */
+
+  #login_page p,
+  #register_page p {
+    text-align: center;
+  }
+
+  #user_info h2,
+  #edit_profile h2,
+  #create_service h2 {
+    width: 250px;
+  }
+
+  #user_info p {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
+
+  /* Admin section responsiveness */
+
+  #admin_central #admin_actions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Center alignment for smaller screens */
+  h2 {
+    text-align: center;
+  }
+
+  input, select, textarea {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 770px){
+
+  /* Profile edit responsiveness */
+  #edit_profile #formedit #can_edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    border-bottom: solid 2px lightcoral;
+    padding-bottom: 1em;
+  }
+
+  #edit_profile #formedit #pass_edit {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    margin-left: 0;
+  }
+
+  #edit_profile #formedit #left_side_edit {
+    border-right: 0px;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1220px) {
+
+  /* Admin actions responsiveness */
+  #admin_central #admin_actions {
+    display: flex;
+    flex-direction: column;
+  }
+}

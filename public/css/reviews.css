@@ -1,0 +1,90 @@
+#reviews {
+    grid-row: 8;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1em;
+    padding: 0.1em 1em 1em 1em;
+    background-color: seashell;
+}
+
+#reviews h2 {
+    color: lightcoral;
+    border-bottom: 2px solid lightcoral;
+    padding-bottom: 0.625em;
+}
+
+#reviews .review_container h3 {
+    color: gray;
+    margin-bottom: 0.3125em;
+}
+
+#reviews .review_container .review_rating {
+    margin-bottom: 0.625em;
+}
+
+#reviews .review_container {
+    color: gray;
+    border-bottom: 2px solid gray;
+    margin-bottom: 0.625em;
+    position: relative;
+}
+
+#reviews .review_container .admin-id {
+  color: gray;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  right: 0.625em;
+}
+
+#leave-review {
+  grid-row: 7;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1em;
+  background-color: seashell;
+  padding: 0 1em 0 1em;
+}
+
+#leave-review h2 {
+  color: lightcoral;
+  border-bottom: solid 2px lightcoral;
+  padding-bottom: 0.625em;
+}
+
+#leave-review #review-result {
+  text-align: center;
+  color: lightsalmon;
+  font-size: 1.3em;
+  margin: 1em;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.5em 0 1em 0;
+}
+
+.star-rating label strong {
+  font-weight: 500;
+}
+
+#star-container {
+  display: inline-block;
+}
+
+.star {
+  font-size: 3rem;
+  cursor: pointer;
+  color: lightgray;
+  user-select: none;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: gold;
+}
+
+#empty-review-msg {
+  color: gray;
+  font-size: 1.5em;
+}

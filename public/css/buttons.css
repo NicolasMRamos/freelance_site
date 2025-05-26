@@ -1,0 +1,36 @@
+.index_button a, .login_button a, 
+.logout_button a, .register_button a, 
+.named_button a, .edit_button a,
+.backprofile_button a, .create_service_button a {
+    color: lightsalmon;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.3125em;
+    border: solid 2px lightsalmon;
+    font-size: 1.2em;
+    background-color: white;
+}
+
+.index_button a:hover, .login_button a:hover, 
+.logout_button a:hover, .register_button a:hover, 
+.named_button a:hover, .edit_button a:hover,
+.backprofile_button a:hover, .create_service_button a:hover {
+    color: #D16A5A;
+    border: solid 2px #D16A5A;
+}
+
+.confirm_button {
+    color: lightcoral;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.3125em;
+    border: solid 2px lightcoral;
+    background-color: white;
+}
+
+.confirm_button:hover {
+    color: #B85C5C;
+    border: solid 2px #B85C5C;
+}

@@ -1,0 +1,203 @@
+#user_info {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: lightcoral;
+    margin: 1em;
+    background-color: seashell;
+}
+
+#user_info h2 {
+    color: lightcoral;
+    font-weight: 600;
+    width: fit-content;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    border-bottom: solid 2px lightcoral;
+    font-size: 2em;
+}
+
+#user_info p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.edit_button {
+    margin: 0.5em auto 2.5em auto;
+}
+
+/* Admin Related */
+
+#admin_central {
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: lightcoral;
+    margin: 1em;
+    background-color: seashell;
+}
+
+#admin_central h2 {
+    color: lightcoral;
+    font-weight: 600;
+    width: fit-content;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    border-bottom: solid 2px lightcoral;
+    font-size: 2em;
+}
+
+#admin_central #admin_actions {
+    display: flex;
+    flex-direction: row;
+}
+
+#admin_central #admin_actions .indiv_action {
+    margin: 0 2em;
+    align-self: center;
+}
+
+#admin_central #admin_actions h3 {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+#admin_central #admin_delete {
+    display: flex;
+    flex-direction: column;
+}
+
+#admin_central .confirm_button {
+    margin: 0.5em 1em 1em 1em;
+}
+
+#admin_central #admin-result {
+    text-align: center;
+    color: lightsalmon;
+    font-size: 1.3em;
+    margin: 1em;
+}
+
+/* Freelancer Related */
+
+#fl_track {
+    grid-row: 4;
+    display: flex;
+    flex-direction: column;
+    background-color: seashell;
+    margin: 1em;
+}
+
+#fl_track h2 {
+    color: lightcoral;
+    font-weight: 600;
+    width: fit-content;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    border-bottom: solid 2px lightcoral;
+    font-size: 2em;
+}
+
+#fl_track .service_container {
+    border-bottom: solid 2px lightcoral;
+    padding-bottom: 1em;
+}
+
+#fl_track .service_container h3 {
+    padding: 0.5em 0;
+    border-bottom: 0;
+}
+
+#fl_track .service_container h3 a {
+    color: lightcoral;
+    text-decoration: none;
+    border: solid 2px lightcoral;
+    padding: 0.3125em;
+}
+
+#fl_track .service_container h3 a:hover {
+    color: #B85C5C;
+    border: solid 2px #B85C5C;
+}
+
+#fl_track #fl_services #empty_serv_fl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+}
+
+#fl_track #fl_services #empty_serv_fl #no_serv_fl {
+    margin-bottom: 1em;
+    color: gray;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#fl_track #fl_services #empty_serv_fl .create_service_button {
+    margin-bottom: 1em;
+}
+
+/* Order Related */
+
+#cl_track {
+    grid-row: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: seashell;
+    margin: 1em;
+}
+
+#cl_track h2 {
+    color: lightcoral;
+    font-weight: 600;
+    width: fit-content;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    border-bottom: solid 2px lightcoral;
+    font-size: 2em;
+}
+
+#cl_track #cl_orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2em 2em 2em;
+}
+
+#cl_track #cl_orders #no_order_cl {
+    color: gray;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin: 2em 0;
+}
+
+#cl_track #cl_corders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2em 2em 2em;
+}
+
+#cl_track #cl_corders #no_corder_cl {
+    color: gray;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin: 2em 0;
+}

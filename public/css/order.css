@@ -1,0 +1,63 @@
+.order_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0.5em;
+  border-bottom: solid 2px lightcoral;
+  width: 30em;
+}
+
+.order_container h3 {
+  color: lightcoral;
+}
+
+.order_container a {
+  color: lightsalmon;
+  border: solid 2px lightsalmon;
+  padding: 0.3125em;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.order_container a:hover {
+  border: solid 2px #D16A5A;
+  color: #D16A5A;
+}
+
+.order_container p {
+  color: gray;
+}
+
+.order_container .admin-id {
+  position: absolute;
+  color: gray;
+  bottom: 1.4em;
+  right: 0.5em;
+}
+
+#create_order {
+    display: flex;
+    flex-direction: column;
+    background-color: seashell;
+    margin: 1em;
+    padding: 0 1em;
+    grid-row: 3;
+}
+
+#create_order h2 {
+  color: lightcoral;
+  border-bottom: solid 2px lightcoral;
+  padding-bottom: 0.625em;
+}
+
+#create_order .create_order_button {
+  margin-bottom: 1em;
+}
+
+#create_order #order-result,
+#create_order #corder-result {
+  text-align: center;
+  color: lightsalmon;
+  font-size: 1.3em;
+  margin: 1em;
+}

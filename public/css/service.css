@@ -1,0 +1,31 @@
+.service_container {
+    grid-row: 2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1em;
+    padding: 0.1em 1em 0.5em 1em;
+    background-color: seashell;
+    position: relative;
+}
+
+.service_container h3 {
+    border-bottom: solid 2px lightcoral;
+    padding: 0.1em 0em 0.5em;
+}
+
+.service_container h3 a {
+    color: lightcoral;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.service_container .service_details {
+    color: gray;
+}
+
+.service_container .admin-id {
+    color: gray;
+    font-weight: 600;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}

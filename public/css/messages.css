@@ -1,0 +1,88 @@
+#messages {
+  grid-row: 5;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1em;
+  padding: 0.1em 1em 1em 1em;
+  background-color: seashell;
+}
+
+#messages h2 {
+  color: lightcoral;
+  border-bottom: 2px solid lightcoral;
+  padding-bottom: 0.625em;
+}
+
+#messages .message_container {
+  color: gray;
+  border-bottom: 2px solid gray;
+  margin-bottom: 0.625em;
+  position: relative;
+  padding-bottom: 0.5em;
+}
+
+#messages .message_container h3 {
+  color: gray;
+  margin: 0 0 0.3125em 0;
+}
+
+#messages .message_container .message_info {
+  font-size: 0.9em;
+  color: gray;
+  margin-bottom: 0.625em;
+}
+
+#messages .message_container .message_date {
+  display: inline-block;
+  margin-right: 0.150em;
+}
+
+#messages .message_container .message_client {
+  font-weight: 600;
+}
+
+/* Empty‐state message */
+#empty-message-msg {
+  color: gray;
+  font-size: 1.5em;
+}
+
+/* “Leave a Message” form section */
+#leave_message {
+  grid-row: 4;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1em;
+  background-color: seashell;
+  padding: 0 1em 0 1em;
+  color: gray;
+}
+
+#leave_message h2 {
+  color: lightcoral;
+  border-bottom: solid 2px lightcoral;
+  padding-bottom: 0.625em;
+}
+
+#leave_message h3 {
+  color: lightcoral;
+  border-bottom: 2px solid lightcoral;
+  padding-bottom: 0.625em;
+}
+
+#leave_message label strong {
+  color: gray;
+  font-size: 1.25em;
+  margin-top: 0.7em;
+  font-weight: 400;
+  text-align: center;
+}
+
+#leave_message .confirm_button {
+  margin-top: 0.5em;
+}
+
+#leave_message #message-result {
+  text-align: center;
+  color: lightsalmon;
+  font-size: 1.3em;
+  margin: 1em;
+}
