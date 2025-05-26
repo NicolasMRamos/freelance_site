@@ -1,24 +1,26 @@
 # University Project - Freelance Site
 
-## Description
-
 This group project consists on a site I developed for the *Linguagens e Tecnologias Web* (LTW) class in my second year, second semester in FEUP.
 
-The site consists on offering freelancing services. It has the following capabilites:
+## Description
 
---> Register and Login/Logout
+The site consists on the offering and hiring of freelancing services.
 
---> Profile Viewing and Profile Editing
+## Features
 
---> Service Creation and Tracking
+* Register and Login/Logout
 
---> Order/Custom Order Placement and Tracking
+* Profile Viewing and Profile Editing
 
---> Search Filter
+* Service Creation and Tracking
 
---> Reviews and Messages on Services
+* Order/Custom Order Placement and Tracking
 
---> Admin Powers and Management of the Site
+* Search Filter
 
---> Responsive Design
+* Reviews and Messages on Services
+
+* Admin Powers and Management of the Site
+
+* Responsive Design
 
