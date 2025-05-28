@@ -62,7 +62,7 @@
     /* services page (index) responsiveness */
 
     #services .create_service_button {
-        display: inline-block;
+        display: block;
         width: fit-content; 
         margin: 0 auto;
         text-align: center;
@@ -84,23 +84,24 @@
         max-width: 90vw;
     }
 
-    #services .service_container h2 {
+    #services .service_container h3 {
         padding: 0.5em 1em;
         font-size: 1.2em;
         text-align: center;
+        text-wrap: nowrap;
         white-space: normal;
         border: 2px solid lightcoral;
     }
 
-    #services .service_container h2:hover {
+    #services .service_container h3:hover {
         border: 2px solid #B85C5C;
     }
 
-    #services .service_container h2 a {
+    #services .service_container h3 a {
         border: 0px;
     }
 
-    #services .service_container h2 a:hover {
+    #services .service_container h3 a:hover {
         border: 0px;
     }
 

@@ -80,6 +80,8 @@
   #edit_profile,
   #admin_central,
   #services,
+  #fl_track,
+  #cl_track,
   .service_container {
     width: auto;
     max-width: 90vw;
@@ -147,6 +149,29 @@
     text-align: center;
   }
 
+  /* Freelance service tracking responsiveness */
+
+  #fl_track .service_container h3 {
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    text-align: center;
+    text-wrap: nowrap;
+    white-space: normal;
+    border: 2px solid lightcoral;
+  }
+
+  #fl_track .service_container h3:hover {
+      border: 2px solid #B85C5C;
+  }
+
+  #fl_track .service_container h3 a {
+      border: 0px;
+  }
+
+  #fl_track .service_container h3 a:hover {
+      border: 0px;
+  }
+
 }
 
 @media (max-width: 770px){
@@ -172,6 +197,11 @@
     border-right: 0px;
     padding-right: 0;
   }
+
+  /* Freelance service tracking responsiveness */
+  #fl_track {
+    width: fit-content;
+  }
 }
 
 @media (max-width: 1220px) {
@@ -179,6 +209,12 @@
   /* Admin actions responsiveness */
   #admin_central #admin_actions {
     display: flex;
+    flex-direction: column;
+  }
+
+  /* Order tracking responsiveness */
+
+  #cl_track {
     flex-direction: column;
   }
 }
